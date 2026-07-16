@@ -1,0 +1,32 @@
+# Common objection -> suggested response angle to weave into the demo.
+# These are angles/framing, not scripted rebuttals — adapt to the conversation.
+#
+# "competitive_vendor" entries are keyed by the customer's CURRENT vendor
+# (from discovery notes, e.g. "Current Firewall: Fortinet") and give a
+# suggested competitive framing angle to weave into the demo — never to
+# disparage the incumbent, only to highlight gaps relative to the customer's
+# stated pains.
+
+"Too expensive":
+  angle: "Reframe around cost of the status quo (downtime, breach risk, manual labor hours) using knowledge/success_metrics.md"
+
+"We already have a vendor":
+  angle: "Focus on gaps the current vendor doesn't cover, based on the customer's stated pains — don't disparage the incumbent, show complementary or superior value on the specific pain raised. Check competitive_vendor entries below if the vendor is known."
+
+"We don't have time to migrate/switch":
+  angle: "Lead with a low-friction proof-of-concept (see templates/poc_demo.md) rather than asking for a full commitment upfront"
+
+"Not sure this solves our specific problem":
+  angle: "Anchor back to the exact pain point in the customer's own words from Step 1 of SKILL.md, and show the specific mapped feature from pain_to_feature.yaml"
+
+"Security/compliance concerns about the vendor itself":
+  angle: "Bring in relevant certifications or audit evidence from knowledge/product_features.md if available; do not overstate compliance claims not on file"
+
+competitive_vendor:
+  Fortinet:
+    angle: "Fortinet customers often raise VPN stability and centralized incident investigation as gaps. Lead with VPN Failover/SD-WAN and ThreatSync in the demo rather than a head-to-head feature comparison."
+  Cisco:
+    angle: "Cisco shops often cite management complexity. Emphasize centralized, simplified policy management and faster time-to-value."
+  Palo Alto:
+    angle: "Palo Alto customers are typically satisfied with core firewall depth but may lack integrated compliance reporting — lead with Automated Compliance Reporting if that pain is present."
+  # Add other incumbent vendors here as they come up in discovery calls.

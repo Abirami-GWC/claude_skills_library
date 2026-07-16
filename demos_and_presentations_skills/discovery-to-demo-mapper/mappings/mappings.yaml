@@ -1,0 +1,87 @@
+# Maps discovery information to demo focus areas.
+# Three independent lookup categories: current_vendor, decision_maker, industry.
+# Match on aliases where present; if a key isn't found, flag it as unmapped
+# rather than guessing — add new entries here as new vendors/roles come up.
+
+current_vendor:
+  "Cisco ASA":
+    aliases: ["Cisco firewall", "ASA"]
+    demo:
+      - Firebox
+      - VPN Migration
+    migration_target: "Firebox"
+
+  "Cisco AnyConnect":
+    aliases: ["AnyConnect", "Cisco VPN"]
+    demo:
+      - VPN Migration
+      - IPSec/SSL VPN on Firebox
+    migration_target: "Firebox"
+
+  "Fortinet":
+    aliases: ["FortiGate"]
+    demo:
+      - ThreatSync
+      - Firebox
+    migration_target: "Firebox"
+
+  "Palo Alto":
+    aliases: ["Palo Alto Networks", "PAN-OS"]
+    demo:
+      - Firebox
+      - Compliance Reporting
+    migration_target: "Firebox"
+
+decision_maker:
+  "IT Director":
+    aliases: ["Director of IT", "Head of IT"]
+    focus:
+      - Security posture / risk reduction
+      - Compliance
+      - Business impact (downtime, cost)
+
+  "Network Engineer":
+    aliases: ["Network Administrator", "Systems Engineer"]
+    focus:
+      - Technical architecture
+      - VPN/firewall configuration detail
+      - Integration with existing infrastructure
+
+  "CISO":
+    aliases: ["Chief Information Security Officer", "Security Director"]
+    focus:
+      - Threat detection & response
+      - Compliance & audit readiness
+      - Incident response workflow
+
+  "CFO":
+    aliases: ["Finance Director", "VP Finance"]
+    focus:
+      - ROI / cost of downtime avoided
+      - Predictable licensing/subscription cost
+      - Risk reduction in dollar terms
+
+industry:
+  "Manufacturing":
+    focus:
+      - Branch connectivity
+      - Factory uptime
+      - Compliance (ISO 27001 and similar)
+
+  "Healthcare":
+    focus:
+      - HIPAA compliance
+      - Endpoint/device visibility
+      - Uptime for clinical systems
+
+  "Financial Services":
+    focus:
+      - Regulatory compliance (PCI DSS)
+      - Fraud/threat detection speed
+      - Audit-readiness
+
+  "Retail":
+    focus:
+      - Multi-site consistency
+      - PCI DSS compliance
+      - POS system uptime
