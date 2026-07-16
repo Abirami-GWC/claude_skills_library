@@ -1,0 +1,34 @@
+{
+  "description": "Sample Q3 pipeline for testing forecast-roller. Same three deals as input-example-1.md / output-example-1.md, in structured form.",
+  "forecast_period": {
+    "label": "Q3 2026",
+    "period_end": "2026-09-30"
+  },
+  "today": "2026-07-16",
+  "deals": [
+    {
+      "deal_name": "ABC Manufacturing",
+      "value": 120000,
+      "stage": "negotiation",
+      "probability": 85,
+      "close_date": "2026-07-28",
+      "last_activity_date": "2026-07-14"
+    },
+    {
+      "deal_name": "XYZ Retail",
+      "value": 50000,
+      "stage": "proposal",
+      "probability": 45,
+      "close_date": "2026-08-05",
+      "last_activity_date": "2026-07-01"
+    },
+    {
+      "deal_name": "Delta Software",
+      "value": 30000,
+      "stage": "discovery",
+      "probability": null,
+      "close_date": "2026-09-10",
+      "last_activity_date": null
+    }
+  ]
+}

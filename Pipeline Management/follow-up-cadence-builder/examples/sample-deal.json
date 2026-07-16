@@ -1,0 +1,28 @@
+{
+  "description": "Sample deal for testing follow-up-cadence-builder. Same deal as input-example-1.md / output-example-1.md, in structured form.",
+  "deal": {
+    "deal_name": "Northwind Traders",
+    "stage": "mid",
+    "last_contact_date": "2026-07-10",
+    "last_contact_channel": "email",
+    "last_contact_summary": "Sent proposal, no response since",
+    "prior_interactions": [
+      {
+        "date": "2026-07-03",
+        "channel": "call",
+        "summary": "Positive call with ops lead (champion)"
+      },
+      {
+        "date": "2026-07-10",
+        "channel": "email",
+        "summary": "Sent proposal"
+      }
+    ],
+    "consecutive_unanswered_touches": 1,
+    "known_stakeholders": {
+      "champion": "Ops Lead (engaged)",
+      "economic_buyer": "Not yet engaged"
+    },
+    "today": "2026-07-16"
+  }
+}

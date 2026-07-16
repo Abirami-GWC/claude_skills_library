@@ -1,0 +1,41 @@
+{
+  "description": "Sample pipeline dataset for testing pipeline-prioritizer. Same four deals as input-example-1.md, in structured form. Run through scripts/score_deals.py after converting to CSV, or use directly as reference for what a structured CRM export might look like.",
+  "deals": [
+    {
+      "deal_name": "Acme Corp - Platform Upgrade",
+      "value": 85000,
+      "stage": "late",
+      "probability": null,
+      "close_date": "2026-07-22",
+      "last_activity_date": "2026-07-15",
+      "engagement_notes": "Talked to them yesterday"
+    },
+    {
+      "deal_name": "Beta Industries - New Deployment",
+      "value": 22000,
+      "stage": "early",
+      "probability": null,
+      "close_date": null,
+      "last_activity_date": "2026-06-25",
+      "engagement_notes": "Haven't heard back in 3 weeks"
+    },
+    {
+      "deal_name": "Gamma LLC - Renewal",
+      "value": 45000,
+      "stage": "mid",
+      "probability": 60,
+      "close_date": "2026-08-15",
+      "last_activity_date": "2026-07-14",
+      "engagement_notes": "Responded to email 2 days ago"
+    },
+    {
+      "deal_name": "Delta Co - Expansion",
+      "value": 60000,
+      "stage": "late",
+      "probability": null,
+      "close_date": "2026-07-20",
+      "last_activity_date": "2026-07-06",
+      "engagement_notes": "No contact in 10 days"
+    }
+  ]
+}

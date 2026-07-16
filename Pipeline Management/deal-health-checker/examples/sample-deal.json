@@ -1,0 +1,33 @@
+{
+  "description": "Sample deals for testing deal-health-checker. Same three deals as input-example-1.md / output-example-1.md, in structured form.",
+  "today": "2026-07-16",
+  "deals": [
+    {
+      "deal_name": "ABC Manufacturing",
+      "stage": "proposal",
+      "last_contact_date": "2026-06-28",
+      "next_meeting_scheduled": "no",
+      "decision_maker_identified": "unknown",
+      "customer_response": "no_response",
+      "engagement_notes": "Went quiet after proposal was sent"
+    },
+    {
+      "deal_name": "Beta Corp",
+      "stage": "negotiation",
+      "last_contact_date": "2026-07-13",
+      "next_meeting_scheduled": "yes",
+      "decision_maker_identified": "yes",
+      "customer_response": "responded",
+      "engagement_notes": "Champion very engaged"
+    },
+    {
+      "deal_name": "Gamma LLC",
+      "stage": "discovery",
+      "last_contact_date": "2026-07-06",
+      "next_meeting_scheduled": "yes",
+      "decision_maker_identified": null,
+      "customer_response": null,
+      "engagement_notes": "Early conversations going fine so far"
+    }
+  ]
+}
