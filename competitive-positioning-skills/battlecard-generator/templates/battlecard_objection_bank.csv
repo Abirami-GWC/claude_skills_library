@@ -1,0 +1,5 @@
+objection,response,source_note,confidence
+"They said your product doesn't support X.","[Sayable, precise correction]","",public
+"Their pricing is cheaper.","[Reframe to total cost / what's included]","",unverified
+"We've already invested in their ecosystem.","[Acknowledge switching cost, offer low-risk next step]","",public
+"Their support/SLA is better.","[Sayable, sourced comparison]","",reported-by-prospect

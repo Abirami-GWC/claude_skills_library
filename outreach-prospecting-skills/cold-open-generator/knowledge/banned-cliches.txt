@@ -1,0 +1,27 @@
+# Phrases/patterns that should never appear as (or within) a generated opener.
+# Used by scripts/cliche_checker.py. One phrase per line, lowercase.
+i hope this email finds you well
+i hope this finds you well
+hope you're having a great week
+hope you're doing well
+my name is
+i work at
+i wanted to reach out
+i wanted to introduce myself
+i came across your profile
+i saw you're doing great things
+i noticed you're growing fast
+just wanted to touch base
+touching base
+circling back
+following up on my last email
+quick question for you
+i know you're busy, so i'll keep this short
+in today's fast-paced world
+in this day and age
+i'll cut to the chase
+picking your brain
+love what you're building
+love what you guys are doing
+congrats on the growth
+congrats on the funding

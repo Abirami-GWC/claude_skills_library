@@ -1,0 +1,16 @@
+{
+  "opener_relevant_signals": [
+    {"type": "content", "examples": ["blog post", "LinkedIn post", "podcast appearance", "conference talk"], "best_formula": "reaction_response"},
+    {"type": "hiring", "examples": ["specific job posting", "team headcount change"], "best_formula": "direct_observation"},
+    {"type": "company_event", "examples": ["funding round", "product launch", "expansion"], "best_formula": "structural_insight"},
+    {"type": "structural", "examples": ["org chart change", "tech stack signal", "tooling adoption"], "best_formula": "structural_insight"},
+    {"type": "peer_comparable", "examples": ["confirmed similar customer/prospect situation"], "best_formula": "peer_reference"},
+    {"type": "low_context", "examples": ["title/function only, no specific event known"], "best_formula": "sharp_question"}
+  ],
+  "excluded_signal_types": [
+    "personal life details (family, health, relationships)",
+    "physical appearance or personal photos",
+    "political affiliation or religious views",
+    "anything not clearly professional/public-business in nature"
+  ]
+}

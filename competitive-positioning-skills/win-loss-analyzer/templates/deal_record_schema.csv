@@ -1,0 +1,11 @@
+deal_id,close_date,outcome,competitor,deal_size_usd,segment,industry,region,product_line,reason_code,reason_detail
+D-1001,2026-01-12,lost,Competitor A,45000,mid-market,Healthcare,NA,Core Platform,PRICE,"Buyer said per-seat pricing didn't scale for their headcount growth"
+D-1002,2026-01-20,won,Competitor A,60000,enterprise,Financial Services,EMEA,Core Platform,FEATURE_GAP,"Competitor lacked native SSO required for their security policy"
+D-1003,2026-02-02,lost,Competitor B,20000,smb,Retail,NA,Core Platform,RELATIONSHIP,"Incumbent vendor, low switching appetite"
+D-1004,2026-02-15,lost,none,,mid-market,Retail,NA,Add-on Module,TIMING,"Project deprioritized, no vendor chosen"
+D-1005,2026-02-28,won,Competitor B,38000,mid-market,Healthcare,NA,Core Platform,SUPPORT_SERVICE,"Buyer had a prior bad support experience with Competitor B"
+D-1006,2026-03-05,lost,Competitor A,52000,enterprise,Healthcare,EMEA,Core Platform,PRICE,"Budget constrained after internal reorg"
+D-1007,2026-03-18,won,Competitor A,71000,enterprise,Financial Services,NA,Core Platform,FEATURE_GAP,"Needed audit logging not available in competitor's base tier"
+D-1008,2026-04-02,lost,Competitor A,30000,mid-market,Retail,NA,Add-on Module,PRODUCT_FIT,"Buyer wanted an all-in-one suite, not modular add-ons"
+D-1009,2026-04-14,won,Competitor B,25000,smb,Healthcare,NA,Core Platform,PRICE,"Flat pricing model was easier to budget for than competitor's tiers"
+D-1010,2026-04-29,lost,Competitor A,48000,mid-market,Financial Services,EMEA,Core Platform,FEATURE_GAP,"Competitor's compliance certifications were stronger for this region"

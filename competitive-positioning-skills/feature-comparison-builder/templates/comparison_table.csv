@@ -1,0 +1,11 @@
+category,dimension,vendor,support_level,detail,source_note,source_url,as_of_date
+Features,Dimension 1,Our Company,Full,,,,2026-07-16
+Features,Dimension 1,Competitor A,Partial,limited to X,,,2026-07-16
+Features,Dimension 1,Competitor B,Unknown,,not verified,,2026-07-16
+Security & Compliance,SOC 2 Type II,Our Company,Full,,,,2026-07-16
+Security & Compliance,SOC 2 Type II,Competitor A,Unknown,,not verified,,2026-07-16
+AI Capabilities,Automated summarization,Our Company,Full,GA,,,2026-07-16
+AI Capabilities,Automated summarization,Competitor A,Partial,beta release,,,2026-07-16
+Pricing,Pricing model,Our Company,Full,usage-based,,,2026-07-16
+Pricing,Pricing model,Competitor A,Full,per-seat,,,2026-07-16
+Pricing,Pricing model,Competitor B,Unknown,,no public pricing page found,,2026-07-16

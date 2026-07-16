@@ -1,0 +1,45 @@
+# Sequence delivery format — fill one block per touch.
+sequence_name: ""
+target_persona: ""
+target_account: ""
+channel_mix: "email"   # e.g. "email", "email+linkedin", "email+call"
+total_touches: 5
+
+touches:
+  - touch: 1
+    day_offset: 0
+    subject: ""
+    body: ""
+    cta: ""
+    rationale: ""   # one line: why this angle, tied to which research signal
+
+  - touch: 2
+    day_offset: 3
+    subject: ""
+    body: ""
+    cta: ""
+    rationale: ""
+
+  - touch: 3
+    day_offset: 7
+    subject: ""
+    body: ""
+    cta: ""
+    rationale: ""
+
+  - touch: 4
+    day_offset: 12
+    subject: ""
+    body: ""
+    cta: ""
+    rationale: ""
+
+  - touch: 5
+    day_offset: 18
+    subject: ""
+    body: ""
+    cta: ""
+    rationale: "Breakup / exit touch"
+
+open_questions:
+  - "Any facts marked [VERIFY: ...] that need user confirmation before sending"

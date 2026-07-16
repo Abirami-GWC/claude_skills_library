@@ -1,0 +1,26 @@
+{
+  "signal_categories": {
+    "trigger_events": {
+      "description": "Time-bound events that create a window of relevance.",
+      "examples": ["funding round", "leadership change", "product launch", "M&A", "office expansion", "layoffs (handle with sensitivity)"],
+      "typical_relevance_window_days": 60
+    },
+    "structural_signals": {
+      "description": "Slower-moving, ongoing state rather than a single event.",
+      "examples": ["headcount growth rate", "tech stack composition", "org structure", "geographic footprint"],
+      "typical_relevance_window_days": 180
+    },
+    "content_signals": {
+      "description": "Things the contact or company said/published publicly.",
+      "examples": ["blog posts", "talks", "podcast appearances", "LinkedIn posts", "press quotes"],
+      "typical_relevance_window_days": 90
+    },
+    "engagement_signals": {
+      "description": "First-party signals the user's own company has, not public research.",
+      "examples": ["content downloads", "webinar attendance", "website visits", "email engagement"],
+      "typical_relevance_window_days": 30,
+      "source": "user-provided only; not something this skill searches for"
+    }
+  },
+  "relevance_scoring_guidance": "Rank signals by (a) specificity to this exact company/contact, (b) recency, and (c) direct tie-in to the offer's value proposition. A recent, specific, offer-relevant signal outranks an older or generic one."
+}

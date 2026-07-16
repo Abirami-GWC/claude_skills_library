@@ -1,0 +1,55 @@
+{
+  "$schema": "buyer-persona-priorities-v1",
+  "description": "Standard buyer persona set with typical priorities and preferred differentiator types. Use to select framing and which 2-4 differentiators to lead with. Extend with a custom persona if the user's buyer doesn't fit these cleanly - do not force a mismatch.",
+  "personas": [
+    {
+      "id": "ceo_founder",
+      "label": "CEO / Founder",
+      "typical_priorities": ["business risk", "growth trajectory", "competitive positioning", "strategic bets"],
+      "preferred_differentiator_types": ["economic", "operational"],
+      "avoid": ["deep technical architecture detail", "feature-level minutiae"]
+    },
+    {
+      "id": "cto_vp_eng",
+      "label": "CTO / VP Engineering",
+      "typical_priorities": ["architecture soundness", "scalability", "technical debt", "integration burden", "security posture"],
+      "preferred_differentiator_types": ["capability", "operational"],
+      "avoid": ["marketing superlatives without technical substantiation"]
+    },
+    {
+      "id": "cfo_procurement",
+      "label": "CFO / Procurement",
+      "typical_priorities": ["total cost of ownership", "pricing predictability", "ROI timeline", "contract flexibility"],
+      "preferred_differentiator_types": ["economic"],
+      "avoid": ["feature lists without cost framing"]
+    },
+    {
+      "id": "product_manager",
+      "label": "Product Manager",
+      "typical_priorities": ["speed to ship", "workflow fit", "extensibility", "roadmap alignment"],
+      "preferred_differentiator_types": ["capability", "operational"],
+      "avoid": ["pure cost framing when speed/fit is the stated priority"]
+    },
+    {
+      "id": "it_manager",
+      "label": "IT Manager / Ops",
+      "typical_priorities": ["reliability", "support burden", "security operations", "administrative overhead"],
+      "preferred_differentiator_types": ["operational", "capability"],
+      "avoid": ["executive-level strategic framing that skips operational detail"]
+    },
+    {
+      "id": "end_user_practitioner",
+      "label": "End User / Practitioner",
+      "typical_priorities": ["day-to-day friction", "learning curve", "reliability in daily workflow"],
+      "preferred_differentiator_types": ["operational"],
+      "avoid": ["pricing/economic framing — rarely relevant to this persona"]
+    },
+    {
+      "id": "security_compliance",
+      "label": "CISO / Security & Compliance Lead",
+      "typical_priorities": ["certifications", "data residency", "audit readiness", "incident response posture"],
+      "preferred_differentiator_types": ["capability", "operational"],
+      "avoid": ["unverified security claims — this persona fact-checks hardest"]
+    }
+  ]
+}

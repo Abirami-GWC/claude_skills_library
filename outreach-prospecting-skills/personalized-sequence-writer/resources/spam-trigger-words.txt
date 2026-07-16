@@ -1,0 +1,35 @@
+# Spam-trigger words/phrases to avoid, especially in subject lines and touch 1.
+# One per line. Used by scripts/validate_sequence.py.
+free
+guarantee
+guaranteed
+act now
+limited time
+no obligation
+risk-free
+100% free
+click here
+buy now
+cash bonus
+cancel at any time
+congratulations
+dear friend
+double your
+earn extra cash
+eliminate debt
+increase sales
+lower your rate
+million dollars
+no credit check
+no fees
+no hidden costs
+once in a lifetime
+order now
+please read
+special promotion
+this isn't spam
+urgent
+winner
+work from home
+!!!
+$$$

@@ -1,0 +1,14 @@
+{
+  "note": "LinkedIn's UI limits can change over time; verify current limits if precision matters for a live campaign. Values below are commonly cited working limits as of this skill's last update.",
+  "limits": {
+    "connection_request_note": 300,
+    "inmail_subject": 200,
+    "inmail_body": 1900,
+    "standard_dm": 8000,
+    "headline_display_in_search": 220
+  },
+  "practical_guidance": {
+    "connection_request_note": "Aim for 150-250 characters even though the cap is 300 — shorter reads as more natural and less like a template.",
+    "dm_messages": "Even though the technical limit is much higher, keep individual DMs under ~500 characters (roughly 80-100 words) to match platform norms; long DMs read as emails pasted into the wrong app."
+  }
+}

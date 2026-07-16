@@ -1,0 +1,25 @@
+# why_us_messaging.yaml
+# Reusable configuration for a specific competitor + persona + channel combo.
+# Fill this in once, then regenerate copy quickly as facts are updated.
+
+competitor_name: ""
+as_of_date: ""            # YYYY-MM-DD
+persona_id: ""            # must match an id in knowledge/persona_priorities.json
+channel: ""                # website | email | talk_track | deck_notes
+
+differentiators:
+  - claim: ""
+    type: ""               # capability | economic | operational
+    proof_point: ""
+    source_note: ""
+  - claim: ""
+    type: ""
+    proof_point: ""
+    source_note: ""
+
+acknowledge_line: ""       # one honest sentence about the competitor's genuine strength
+
+call_to_action: ""         # low-pressure next step for the close
+
+do_not_say:
+  - ""

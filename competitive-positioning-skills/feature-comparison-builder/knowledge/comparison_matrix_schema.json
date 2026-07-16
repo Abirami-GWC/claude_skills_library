@@ -1,0 +1,41 @@
+{
+  "$schema": "comparison-matrix-v2",
+  "description": "Canonical data model for a feature/pricing comparison matrix, supporting N vendors. Populate this first, then render to markdown/CSV/HTML/docx from it. Every cell must carry a support level and a source.",
+  "title": "",
+  "as_of_date": "YYYY-MM-DD",
+  "vendors": [
+    { "id": "us", "display_name": "[Our Company]" },
+    { "id": "competitor_a", "display_name": "" },
+    { "id": "competitor_b", "display_name": "" }
+  ],
+  "dimensions": [
+    {
+      "id": "dim_001",
+      "category": "Features | Pricing | Integrations | Security & Compliance | Scalability | AI Capabilities | Deployment | Support | Licensing",
+      "label": "",
+      "cells": [
+        {
+          "vendor_id": "us",
+          "support_level": "Full | Partial | Add-on | Unsupported | Unknown",
+          "detail": "",
+          "source_note": "",
+          "source_url": ""
+        },
+        {
+          "vendor_id": "competitor_a",
+          "support_level": "Full | Partial | Add-on | Unsupported | Unknown",
+          "detail": "",
+          "source_note": "",
+          "source_url": ""
+        },
+        {
+          "vendor_id": "competitor_b",
+          "support_level": "Full | Partial | Add-on | Unsupported | Unknown",
+          "detail": "",
+          "source_note": "",
+          "source_url": ""
+        }
+      ]
+    }
+  ]
+}

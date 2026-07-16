@@ -1,0 +1,15 @@
+{
+  "$schema": "loss-reason-taxonomy-v1",
+  "description": "Use these categories to code every deal's primary reason consistently. Pick the single best-fit primary category per deal; a secondary category is optional.",
+  "categories": [
+    { "code": "PRICE", "label": "Price / budget", "notes": "Deal lost or won primarily on cost, TCO, or budget fit." },
+    { "code": "FEATURE_GAP", "label": "Feature / capability gap", "notes": "A specific required capability was missing, weaker, or not yet released." },
+    { "code": "RELATIONSHIP", "label": "Existing relationship / incumbency", "notes": "Competitor (or us) was already embedded/trusted; switching cost or loyalty was decisive." },
+    { "code": "TIMING", "label": "Timing / urgency mismatch", "notes": "Deal stalled or lost due to buyer timeline or budget cycle — not a head-to-head loss." },
+    { "code": "SUPPORT_SERVICE", "label": "Support / implementation / service quality", "notes": "Perceived or experienced difference in onboarding, support, or professional services." },
+    { "code": "BRAND_TRUST", "label": "Brand / trust / risk perception", "notes": "Buyer perception of vendor stability, market presence, analyst standing, or security posture." },
+    { "code": "SALES_PROCESS", "label": "Sales process / rep execution", "notes": "Outcome driven by how the deal was run rather than product/price." },
+    { "code": "PRODUCT_FIT", "label": "Overall product-market fit for this buyer", "notes": "No single dealbreaker feature, but overall approach/architecture didn't fit." },
+    { "code": "OTHER_UNKNOWN", "label": "Other / unknown", "notes": "Use when the reason genuinely isn't captured well by other categories, or wasn't documented." }
+  ]
+}

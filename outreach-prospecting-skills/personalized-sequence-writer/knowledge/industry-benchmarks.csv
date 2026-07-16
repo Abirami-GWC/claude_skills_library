@@ -1,0 +1,9 @@
+industry,avg_touches_to_reply,typical_email_open_rate,typical_reply_rate,notes
+SaaS - SMB,2,45%,8%,Fast cycles; keep sequence under 10 days
+SaaS - Mid-Market,3,40%,6%,Standard 5-touch cadence performs well
+SaaS - Enterprise,4,35%,4%,Multi-thread across 2+ personas improves reply rate
+Financial Services,3,38%,5%,Compliance-sensitive; avoid superlative claims
+Healthcare,3,33%,4%,Longer cycles; avoid PHI-adjacent claims in copy
+Manufacturing,4,42%,7%,Phone/voicemail touches often outperform email alone
+Professional Services,2,48%,9%,Warm intros dramatically outperform cold in this vertical
+Public Sector / Gov,5,30%,3%,Longest cycles; formal tone, avoid urgency language

@@ -1,0 +1,41 @@
+{
+  "$schema": "battlecard-competitor-profile-v1",
+  "description": "Fill one of these per competitor before drafting a battlecard. Every fact should carry a source; leave null rather than guessing.",
+  "competitor_name": "",
+  "as_of_date": "YYYY-MM-DD",
+  "segment_scope": "e.g. mid-market NA, or 'general'",
+  "snapshot": {
+    "founded": "",
+    "hq": "",
+    "size_or_funding": "",
+    "target_customer_profile": "",
+    "primary_use_case": "",
+    "deployment_model": ""
+  },
+  "genuine_strengths": [
+    { "claim": "", "source_note": "" }
+  ],
+  "known_weaknesses": [
+    { "claim": "", "landmine_question": "", "source_note": "", "confidence": "public | reported-by-prospect | unverified" }
+  ],
+  "head_to_head": [
+    { "dimension": "", "us": "", "them": "", "source_note": "" }
+  ],
+  "our_differentiators": [
+    { "claim": "", "proof_point": "" }
+  ],
+  "objections": [
+    { "objection": "", "response": "", "source_note": "" }
+  ],
+  "talking_points": [ "" ],
+  "do_not_say": [
+    "List any claims Legal/Sales leadership has flagged as off-limits"
+  ],
+  "pricing": {
+    "their_model": "",
+    "their_list_price_note": "",
+    "our_model": "",
+    "source_url": "",
+    "confidence": "public | reported-by-prospect | unverified"
+  }
+}
