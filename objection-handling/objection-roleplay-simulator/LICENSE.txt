@@ -1,0 +1,12 @@
+Objection Handling Skill
+
+Internal use license.
+
+This skill and its bundled content (handler playbooks, talk tracks, competitor battlecards,
+scripts, and reference material) are intended for internal use by the organization that created
+or installed them. The placeholder objection, pricing, and competitor content included is
+illustrative only and must be reviewed and replaced with accurate, organization-approved content
+before any production or customer-facing use.
+
+No warranty is made regarding the accuracy of placeholder content. Verify all competitor claims
+and pricing guidance against current, approved sources before use in live sales conversations.
