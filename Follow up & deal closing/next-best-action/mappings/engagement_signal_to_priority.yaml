@@ -1,0 +1,19 @@
+# Days since last contact -> override priority. Checked BEFORE stage-specific actions.
+
+thresholds:
+  - days: "0-3"
+    priority_override: false
+    note: "Recent contact — proceed with normal stage-specific actions."
+  - days: "4-6"
+    priority_override: false
+    note: "Getting close to stale — stage-specific actions still apply, but a rep should be watching this."
+  - days: "7+"
+    priority_override: true
+    note: >
+      Exceeds the override threshold (unless the deal is Closed Won or Closed
+      Lost). "Send a follow-up now" becomes the top-priority action, ahead of
+      any stage-specific recommendation.
+
+exclusions:
+  - "Closed Won"
+  - "Closed Lost"

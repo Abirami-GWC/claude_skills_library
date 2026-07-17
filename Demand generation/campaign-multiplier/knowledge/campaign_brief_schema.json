@@ -1,0 +1,31 @@
+{
+  "$schema": "campaign-brief-v1",
+  "description": "Structured data model for a multi-channel campaign brief. Fill after eliciting core idea, audience, goal, and available channels.",
+  "campaign_name": "",
+  "core_idea_or_asset": {
+    "summary": "",
+    "source_link_or_reference": ""
+  },
+  "audience_persona": "",
+  "primary_goal": "awareness | lead_generation | product_adoption | retention_expansion",
+  "timeframe": "",
+  "messaging_pillars": [
+    { "pillar": "", "supporting_point": "" }
+  ],
+  "channels": [
+    {
+      "channel": "",
+      "angle": "",
+      "format": "",
+      "example_hook": "",
+      "cta": "",
+      "success_metric": "",
+      "owner": "",
+      "notes": ""
+    }
+  ],
+  "excluded_channels": [
+    { "channel": "", "reason_excluded": "" }
+  ],
+  "open_questions": [ "" ]
+}

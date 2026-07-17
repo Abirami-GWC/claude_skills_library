@@ -1,0 +1,36 @@
+# Usage signal -> framing + touchpoint sequencing. Milestones are days-before-contract-end;
+# skip any milestone that has already passed relative to today's date.
+
+standard_milestones:
+  - days_before_end: 90
+    action: "Internal account review; schedule a QBR (quarterly business review) with the account"
+  - days_before_end: 60
+    action: "Open the renewal conversation"
+  - days_before_end: 30
+    action: "Send the renewal proposal/quote"
+  - days_before_end: 14
+    action: "Send a reminder; proactively address any open objection"
+  - days_before_end: 0
+    action: "Confirm renewal signed, or trigger an escalation/save plan if not"
+
+framing_by_signal:
+  growing:
+    lead_with: "expansion/upsell pitch"
+    notes: >
+      Pitch the expansion opportunity in the same conversation as the 60-day
+      renewal open. The renewal itself is treated as low-risk.
+    expansion_allowed: true
+  flat:
+    lead_with: "value check-in"
+    notes: >
+      Before any upsell ask, review what's been achieved and what's
+      underused. Only raise expansion after the value conversation lands
+      well — otherwise stick to a straightforward renewal.
+    expansion_allowed: "conditional — after a positive value check-in"
+  at_risk:
+    lead_with: "save conversation"
+    notes: >
+      Surface the risk directly and address it. Do not raise expansion at
+      all until the relationship is stabilized. Renewal terms should only
+      be discussed once trust is rebuilt.
+    expansion_allowed: false

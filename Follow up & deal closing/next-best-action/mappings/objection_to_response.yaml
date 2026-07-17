@@ -1,0 +1,70 @@
+# Objection -> response angle. These are angles to weave into a recommendation, never a verbatim script.
+
+budget_or_price:
+  aliases:
+    - "too expensive"
+    - "no budget"
+    - "over budget"
+    - "budget approval pending"
+    - "cfo needs to sign off"
+    - "cheaper elsewhere"
+  response_angle: >
+    Reframe around ROI and cost-of-status-quo before offering any discount.
+    Offer a smaller starting scope or phased rollout instead of cutting price
+    first. Ask directly what budget range or timing (e.g. new fiscal year)
+    would work.
+
+no_urgency:
+  aliases:
+    - "not the right time"
+    - "maybe next quarter"
+    - "revisit later"
+    - "no rush"
+  response_angle: >
+    Identify the real trigger event that would create urgency and tie the
+    next step to it. Offer a specific future reconnect date rather than
+    leaving it open-ended. Ask what would need to be true for this to become
+    a priority now.
+
+needs_stakeholder_signoff:
+  aliases:
+    - "need to check with my boss"
+    - "procurement needs to review"
+    - "legal is reviewing"
+    - "waiting on exec approval"
+  response_angle: >
+    Offer to join a call with that stakeholder directly. Provide a
+    forwardable one-pager or ROI summary the champion can send internally.
+    Ask who else needs to be involved and get them included early.
+
+evaluating_competitor:
+  aliases:
+    - "looking at a competitor"
+    - "comparing options"
+    - "also talking to"
+  response_angle: >
+    Ask what matters most in the decision rather than listing every
+    differentiator. Focus on the buyer's stated need, not a generic feature
+    comparison. Offer a side-by-side or trial to make the comparison
+    concrete. Never disparage the named competitor directly.
+
+happy_with_status_quo:
+  aliases:
+    - "happy with current solution"
+    - "not looking to switch"
+    - "no problem right now"
+  response_angle: >
+    Ask a specific question about a known pain point in that category rather
+    than pitching features. Share a relevant case study from a similar
+    company. Suggest a low-commitment next step (audit, assessment, trial)
+    rather than asking for a full commitment.
+
+went_silent:
+  aliases:
+    - "stopped responding"
+    - "ghosted"
+    - "no reply"
+  response_angle: >
+    This is not a real objection — treat it via the engagement-signal
+    override (days since contact) rather than guessing at a reason. Send a
+    direct, low-pressure check-in.

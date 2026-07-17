@@ -1,0 +1,34 @@
+# Request language -> email goal / template file. Check aliases before asking the user to classify manually.
+
+proposal_nudge:
+  aliases:
+    - "nudge on the proposal"
+    - "haven't heard back on the quote"
+    - "check in on the proposal"
+    - "following up on pricing"
+  template: templates/proposal_nudge_email.md
+
+contract_chase:
+  aliases:
+    - "still needs a signature"
+    - "waiting on the contract"
+    - "haven't signed yet"
+    - "chase the paperwork"
+    - "follow up on the msa"
+  template: templates/contract_chase_email.md
+
+reengagement:
+  aliases:
+    - "gone quiet"
+    - "haven't heard from them in a while"
+    - "re-engage"
+    - "win back their attention"
+  template: templates/reengagement_email.md
+
+recap:
+  aliases:
+    - "recap this call"
+    - "summarize the meeting"
+    - "follow-up from our demo"
+    - "send them notes from the call"
+  template: templates/recap_email.md

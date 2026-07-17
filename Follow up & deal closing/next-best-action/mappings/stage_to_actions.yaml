@@ -1,0 +1,76 @@
+# Stage -> recommended actions. Aliases catch how people actually describe a stage in plain language.
+
+Prospecting:
+  aliases:
+    - "no meeting yet"
+    - "intro sent"
+    - "cold outreach"
+    - "reached out, no reply"
+  actions:
+    - "Send a targeted intro referencing a specific pain point relevant to their industry"
+    - "Share one relevant case study or proof point"
+    - "Ask directly for a 15-20 minute discovery call"
+
+Discovery:
+  aliases:
+    - "discovery call done"
+    - "scoping needs"
+    - "had an intro call"
+  actions:
+    - "Send a short recap of what was discussed on the discovery call"
+    - "Propose a demo tailored specifically to the stated need, not a generic walkthrough"
+    - "Share one resource (case study, one-pager) addressing their top stated concern"
+
+Demo/Evaluation:
+  aliases:
+    - "demo done"
+    - "evaluating"
+    - "running a trial"
+    - "in a POC"
+  actions:
+    - "Send a proposal or pricing now that the demo has landed"
+    - "Proactively address the most likely objection before they raise it"
+    - "Offer a trial/pilot/POC if the deal size and timeline support it"
+
+Proposal:
+  aliases:
+    - "proposal sent"
+    - "quote sent"
+    - "waiting on a decision"
+    - "reviewing the quote"
+  actions:
+    - "If no response in 3-5 business days, send a short, specific nudge"
+    - "Offer a call to walk through pricing line by line"
+    - "Ask directly what's needed to move to a decision"
+
+Negotiation:
+  aliases:
+    - "redlines"
+    - "legal is reviewing"
+    - "discussing terms"
+    - "in contract review"
+  actions:
+    - "Confirm outstanding redlines or open terms in writing"
+    - "Loop in legal/procurement contact directly if not already involved"
+    - "Propose a specific decision date rather than leaving it open-ended"
+
+Closed Won:
+  aliases:
+    - "signed"
+    - "contract executed"
+    - "po issued"
+  actions:
+    - "Kick off onboarding immediately"
+    - "Schedule a kickoff call within the first week"
+    - "Thank the internal champion by name for their advocacy"
+
+Closed Lost:
+  aliases:
+    - "deal dead"
+    - "went with a competitor"
+    - "said no"
+    - "lost the deal"
+  actions:
+    - "Send a brief, gracious close-out note"
+    - "Ask one specific question about why, for pattern-tracking"
+    - "Tag the account for re-engagement in 6-12 months"

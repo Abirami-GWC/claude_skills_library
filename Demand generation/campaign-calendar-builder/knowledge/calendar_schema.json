@@ -1,0 +1,20 @@
+{
+  "$schema": "campaign-calendar-v1",
+  "description": "Structured data model for a campaign calendar with dependencies. Populate before running scripts/validate_calendar.py and scripts/build_gantt_chart.py.",
+  "campaign_name": "",
+  "anchor_date": "YYYY-MM-DD",
+  "activities": [
+    {
+      "id": "act_001",
+      "name": "",
+      "channel": "",
+      "type": "content_creation | approval | publish | promotion | reminder | other",
+      "owner": "",
+      "start_date": "YYYY-MM-DD",
+      "end_date": "YYYY-MM-DD",
+      "depends_on": ["act_id", "..."],
+      "dependency_source": "user-confirmed | inferred",
+      "notes": ""
+    }
+  ]
+}

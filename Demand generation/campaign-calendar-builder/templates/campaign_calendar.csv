@@ -1,0 +1,7 @@
+id,name,channel,type,owner,start_date,end_date,depends_on,dependency_source,notes
+act_001,Draft launch blog post,Blog,content_creation,,2026-08-01,2026-08-05,,,
+act_002,Publish launch blog post,Blog,publish,,2026-08-06,2026-08-06,act_001,user-confirmed,
+act_003,LinkedIn announcement post,LinkedIn,promotion,,2026-08-06,2026-08-06,act_002,inferred,Depends on blog being live
+act_004,Launch announcement email,Email,promotion,,2026-08-06,2026-08-06,act_002,inferred,Depends on blog being live
+act_005,Paid social creative approval,Paid Social,approval,,2026-07-27,2026-07-31,,user-confirmed,
+act_006,Paid social campaign live,Paid Social,promotion,,2026-08-06,2026-08-20,act_005,user-confirmed,
