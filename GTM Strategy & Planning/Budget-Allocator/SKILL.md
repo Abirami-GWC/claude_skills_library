@@ -1,9 +1,9 @@
 ---
-name: Budget Allocator
+name: Budget-Allocator
 description: Models and optimizes go-to-market budget allocation across marketing and sales channels using historical performance metrics, CAC, ROI, and LTV:CAC data. Use when a user needs to build a budget allocation model, reallocate spend across channels, calculate or analyze customer acquisition cost (CAC), forecast return on marketing investment, run best/base/worst-case budget scenarios, or optimize spend distribution given a fixed or changing budget. Do not use for writing GTM positioning/messaging strategy, quarterly roadmap timelines, or board narrative decks — those are handled by separate skills.
 ---
 
-# Budget Allocator
+# Budget-Allocator
 
 ## Purpose
 
