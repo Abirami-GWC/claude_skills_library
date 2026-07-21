@@ -21,7 +21,7 @@ question if the list has more than 3 accounts (writing 3+ fully bespoke sequence
 without confirming is a large amount of work to redo if the user wanted a template).
 
 ## Step 2 — Choose Cadence
-Consult `references/channel-cadence-guide.md` and `sub-skills/cadence-strategy/SKILL.md`.
+Consult `references/channel-cadence-guide.md` and `sub-skills/cadence-strategy/reference.md`.
 Key decision factors:
 - **Deal size / ACV**: higher ACV → fewer, more spaced-out, higher-effort touches.
 - **Seniority of persona**: C-level → shorter sequence, more respect for time,
@@ -53,7 +53,7 @@ Each subsequent touch must introduce a **new angle**, not just re-send the pitch
   "wanted to bump this to the top of your inbox."
 
 ## Step 5 — Draft the Breakup Touch
-See `sub-skills/breakup-messaging/SKILL.md`. Always:
+See `sub-skills/breakup-messaging/reference.md`. Always:
 - Signal this is the last outreach in this sequence.
 - Remove pressure — make it easy to say "not now" or ignore without guilt.
 - Leave the door open for the prospect to re-engage on their own timeline.

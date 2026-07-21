@@ -13,9 +13,10 @@ Read `knowledge/sales-stages.md` for how to normalize whatever stage names the u
 CRM uses, and what fields are required vs optional. Do not block on missing optional
 fields — apply the documented default and flag the gap in the output instead.
 
-If the user has no data ready, offer `templates/deal-import-template.csv` — a blank
-sheet they can fill in themselves or hand to someone else, rather than typing deals
-into chat one at a time. See `examples/input-example-1.md` for what a filled-in,
+If the user has no data ready, offer `templates/deal-import-template.csv` — a
+template with a header row and 2 filled-in example rows they can follow and
+replace (or hand to someone else to fill in), rather than typing deals into chat
+one at a time. See `examples/input-example-1.md` for what a filled-in,
 realistic version of this looks like.
 
 If the user has given no data at all and no file is attached, ask them to paste a

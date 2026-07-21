@@ -48,11 +48,12 @@ manager trusting the number.
 ## Testing it yourself
 
 ```bash
-python3 scripts/forecast_pipeline.py examples/sample-pipeline.json  # convert to CSV first
+python3 scripts/forecast_pipeline.py examples/sample-pipeline.csv --period-end 2026-09-30 --today 2026-07-16
 ```
 
 Compare against `examples/output-example-1.md` to sanity-check any changes to the
-weighting or risk thresholds.
+weighting or risk thresholds. `examples/sample-pipeline.json` holds the same three
+deals in structured form for reference — the runnable input is `sample-pipeline.csv`.
 
 ## Related skills (same module)
 

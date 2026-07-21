@@ -1,5 +1,5 @@
 {
-  "description": "Sample pipeline dataset for testing pipeline-prioritizer. Same four deals as input-example-1.md, in structured form. Run through scripts/score_deals.py after converting to CSV, or use directly as reference for what a structured CRM export might look like.",
+  "description": "Sample pipeline dataset for testing pipeline-prioritizer. Same four deals as input-example-1.md, in structured form — a reference for what a structured CRM export might look like. For a runnable input, use sample-pipeline.csv (scripts/score_deals.py reads CSV, not JSON).",
   "deals": [
     {
       "deal_name": "Acme Corp - Platform Upgrade",

@@ -46,7 +46,7 @@ Give Claude a repeatable, quality-controlled process for:
 - A single one-off cold email with no planned follow-up → write directly, no sequence needed.
 - LinkedIn-only touches → route to `linkedin-outreach-writer`.
 - Only the opening line/hook is needed → route to `cold-open-generator`, or use
-  `sub-skills/email-copy-drafting` directly if already inside a sequence build.
+  `sub-skills/email-copy-drafting/reference.md` directly if already inside a sequence build.
 - The prospect has already replied or is mid-deal → this is account management /
   customer communication, not prospecting outreach; do not use this skill.
 - User wants raw research on a company/contact with no copy attached →
@@ -62,14 +62,14 @@ Full step-by-step logic lives in `instructions/workflow.md`. Summary:
    If personalization signals are missing, ask for them or, if research tools are
    available, gather them — do not fabricate specific facts about a real company.
 2. **Choose a cadence.** Use `references/channel-cadence-guide.md` and
-   `sub-skills/cadence-strategy/` to pick touch count, spacing, and escalation logic
+   `sub-skills/cadence-strategy/reference.md` to pick touch count, spacing, and escalation logic
    based on deal size and audience seniority.
 3. **Draft touch 1 (the specific one).** This carries the heaviest personalization
-   burden. See `sub-skills/email-copy-drafting/`.
+   burden. See `sub-skills/email-copy-drafting/reference.md`.
 4. **Draft touches 2-N with distinct angles**, not restatements — each touch should
    introduce a new reason to reply (proof point, resource, question, peer example).
    Never write "just following up" or "circling back" as the entire content of a touch.
-5. **Draft the breakup/final touch** using `sub-skills/breakup-messaging/` — always
+5. **Draft the breakup/final touch** using `sub-skills/breakup-messaging/reference.md` — always
    include a graceful, low-pressure exit on the last touch.
 6. **Validate.** Run the sequence against `instructions/validation-rules.md` and, if
    code execution is available, `scripts/validate_sequence.py` (checks length, spam
@@ -112,9 +112,9 @@ Full step-by-step logic lives in `instructions/workflow.md`. Summary:
 - `templates/4-touch-email-sequence.md` — ready starting skeleton
 - `scripts/validate_sequence.py` — automated QA checks
 - `resources/spam-trigger-words.txt` — words/phrases to avoid in subject lines
-- `sub-skills/cadence-strategy/` — timing and escalation logic
-- `sub-skills/email-copy-drafting/` — per-touch copywriting patterns
-- `sub-skills/breakup-messaging/` — final-touch/exit copy patterns
+- `sub-skills/cadence-strategy/reference.md` — timing and escalation logic
+- `sub-skills/email-copy-drafting/reference.md` — per-touch copywriting patterns
+- `sub-skills/breakup-messaging/reference.md` — final-touch/exit copy patterns
 
 ## Common Mistakes This Skill Prevents
 - Writing 5 emails that are all the same email getting shorter (no new angle per touch).

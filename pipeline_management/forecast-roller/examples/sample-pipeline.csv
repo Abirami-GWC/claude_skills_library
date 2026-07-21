@@ -1,0 +1,4 @@
+deal_name,value,stage,probability,close_date,last_activity_date
+ABC Manufacturing,120000,negotiation,85,2026-07-28,2026-07-14
+XYZ Retail,50000,proposal,45,2026-08-05,2026-07-01
+Delta Software,30000,discovery,,2026-09-10,

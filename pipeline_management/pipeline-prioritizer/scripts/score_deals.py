@@ -127,8 +127,18 @@ def score_deals(rows, weights, today):
         if prob_raw:
             probability = float(prob_raw)
         else:
-            probability = STAGE_PROBABILITY_DEFAULT[stage]
-            flags.append("probability inferred from stage")
+            # Dampened toward the neutral midpoint (50) rather than using the raw
+            # stage-derived value at full strength. Stage is already scored separately
+            # via STAGE_SCORE (weights["stage"], default 15%) — if the inferred
+            # "probability" factor (weights["probability"], default 20%) just replayed
+            # the same stage-derived curve at full strength, one underlying fact
+            # (stage) would end up driving ~35% of the score instead of the documented
+            # 15%/20% split. Blending halfway to neutral keeps the inference
+            # directionally correct (higher stage -> higher inferred probability)
+            # while curbing that double-counting when the real number isn't known.
+            # See knowledge/scoring-guidelines.md's "Probability to Close" section.
+            probability = 50 + (STAGE_PROBABILITY_DEFAULT[stage] - 50) * 0.5
+            flags.append("probability inferred from stage (dampened toward neutral to avoid double-counting stage — see scoring-guidelines.md)")
 
         close_dt = parse_date(r.get("close_date"))
         last_activity_dt = parse_date(r.get("last_activity_date"))

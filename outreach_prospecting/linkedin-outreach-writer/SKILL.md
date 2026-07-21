@@ -41,7 +41,7 @@ connection request note, and the DM sequence that follows after connection.
 - Email copy → `personalized-sequence-writer` / `cold-open-generator`.
 - LinkedIn thought-leadership or content posts (not 1:1 outreach) → out of scope.
 - Cadence/timing decisions for a multi-channel sequence → handled by
-  `personalized-sequence-writer/sub-skills/cadence-strategy`; this skill only
+  `personalized-sequence-writer/sub-skills/cadence-strategy/reference.md`; this skill only
   writes the LinkedIn-specific copy once timing is decided.
 
 ## Workflow
@@ -49,8 +49,8 @@ See `instructions/workflow.md`. Summary:
 1. Confirm whether this is a cold connection request, a warm one (mutual
    connection, shared group, engaged with content), or a post-connection DM.
 2. If a connection request: draft the note using
-   `sub-skills/connection-request-writer/`, respecting the 300-character limit.
-3. If a DM sequence: draft 2-4 messages using `sub-skills/dm-sequence-writer/`,
+   `sub-skills/connection-request-writer/reference.md`, respecting the 300-character limit.
+3. If a DM sequence: draft 2-4 messages using `sub-skills/dm-sequence-writer/reference.md`,
    each shorter and more conversational than email equivalents.
 4. Validate character limits and platform-appropriateness using
    `knowledge/platform-etiquette.md` and, if available, `scripts/char_limit_check.py`.
@@ -81,8 +81,8 @@ See `instructions/workflow.md`. Summary:
 - `templates/dm-sequence-template.md`
 - `examples/examples.md`
 - `scripts/char_limit_check.py`
-- `sub-skills/connection-request-writer/` — connection note copywriting
-- `sub-skills/dm-sequence-writer/` — post-connect DM sequence copywriting
+- `sub-skills/connection-request-writer/reference.md` — connection note copywriting
+- `sub-skills/dm-sequence-writer/reference.md` — post-connect DM sequence copywriting
 
 ## Common Mistakes This Skill Prevents
 - Connection requests that exceed the character limit and get truncated or rejected by the form.

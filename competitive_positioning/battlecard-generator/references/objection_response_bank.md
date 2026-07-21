@@ -3,6 +3,18 @@
 Patterns to adapt, not scripts to paste verbatim — always tailor to the actual
 sourced facts for the competitor at hand.
 
+**Canonical source note:** this file is the canonical version of these four
+generic objection-scenario patterns. `why-us-messaging/references/objection_handling.md`
+intentionally duplicates this same base content (so each skill stays
+self-contained and independently installable) but adds persona-specific
+framing on top. If these patterns change, update both copies and diff against
+this file when in doubt about which is current. This is a different asset
+from `objection_handling/competitor-objection-handler`'s named-competitor
+table — that skill answers "what do I say when Fortinet/Palo Alto/SonicWall
+gets named on a call," organized by competitor; this file answers "what's the
+pattern for a cheaper/already-invested/feature-parity objection," organized
+by scenario type, independent of which competitor raised it.
+
 ## "They said your product doesn't support X."
 
 If true but nuanced (different approach, roadmap item): correct precisely and

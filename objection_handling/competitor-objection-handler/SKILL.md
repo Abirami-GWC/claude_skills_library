@@ -38,6 +38,17 @@ independently installable:
 Competitor mentions take priority even when price is also raised — "Fortinet is cheaper" is
 handled here, not in `pricing-objection-handler`.
 
+**Relationship to `competitive_positioning` (a different topic folder):** this skill's
+`handlers/competitor-objection-handler.md` table is a live-call, named-competitor
+lookup (Fortinet → strength → differentiation → question), not a duplicate of
+`competitive_positioning/battlecard-generator`'s output. Battlecard Generator
+produces the fuller, formal one-page battlecard document (which itself contains an
+objection-handling section) — use that skill when building/refreshing the source
+document a battlecard is generated from; use this skill when reacting in the
+moment to a specific spoken objection. `competitive_positioning/why-us-messaging`
+covers a third, distinct case: persuasive, persona-tailored "why us" narrative for
+decks/emails/web copy, not a quick-reference for live objection handling.
+
 ## Structure
 
 ```

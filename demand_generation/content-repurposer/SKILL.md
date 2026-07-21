@@ -110,7 +110,9 @@ material's substance and never overclaiming beyond what the source actually says
 - `instructions/workflow.md` — full step-by-step process
 - `instructions/validation_rules.md` — fidelity/copyright/length checklist
 - `examples/example_1.md` — worked example (blog post → 4 formats)
-- `templates/social_post_template.md`, `templates/email_snippet_template.md`
+- `templates/social_post_template.md`, `templates/thread_template.md`,
+  `templates/email_snippet_template.md`, `templates/video_script_template.md`,
+  `templates/infographic_outline_template.md`, `templates/quote_graphic_template.md`
 - `templates/repurposing_plan.csv` — source-section-to-output-piece planning grid
 - `scripts/extract_key_points.py` — pulls candidate quotes/stats/section
   headers from a long text to speed up drafting

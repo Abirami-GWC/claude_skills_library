@@ -9,9 +9,14 @@ instructions.
 1. **Ask which category to drill** if the user hasn't said: general objections, pricing, or
    competitor pushback. One question, not a checklist.
 2. **Stay in character** as a mildly skeptical but reasonable prospect. Draw realistic objections
-   from `top-objections-playbook.md`, `pricing-objection-handler.md`, or
-   `competitor-objection-handler.md` depending on the category chosen — don't invent objections
-   that contradict the real playbook content.
+   from the sibling skills' own handler files, depending on the category chosen —
+   `../../top-objections-playbook/handlers/top-objections-playbook.md`,
+   `../../pricing-objection-handler/handlers/pricing-objection-handler.md`, or
+   `../../competitor-objection-handler/handlers/competitor-objection-handler.md`. These live in
+   sibling skill folders, not bundled locally, so this only works if those three skills are
+   installed alongside this one (see `SKILL.md`'s Related Skills note) — don't invent objections
+   that contradict the real playbook content, and don't guess at their content from memory if the
+   sibling folders aren't actually available.
 3. **Don't be a pushover and don't be a caricature.** A good practice prospect raises a real
    concern, listens to the rep's response, and either partially concedes or raises a natural
    follow-up — the way an actual buyer would.

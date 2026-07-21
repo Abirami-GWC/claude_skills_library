@@ -16,7 +16,7 @@ single objection sentence. Recognize the pattern first, then use the matching mo
 |---|---|---|
 | Prospect goes quiet after verbal yes | Champion is stuck internally, not reconsidering | Check in with a specific, low-effort ask ("is there anything blocking signature I can help unblock") rather than a generic "just following up." |
 | New condition appears late ("actually, we also need X") | Could be a genuine last-mile requirement, or a stall tactic, or a sign a second stakeholder just got involved | Ask directly whether this is new information or a new stakeholder — don't assume bad faith, but don't just concede either. |
-| "We need to redo the paperwork with legal" | Often real, sometimes a soft stall | Offer to provide whatever legal/procurement typically needs pre-packaged — see `templates/follow-up-email-templates.md` for a redline-response template. |
+| "We need to redo the paperwork with legal" | Often real, sometimes a soft stall | Offer to provide whatever legal/procurement typically needs pre-packaged — see `templates/follow-up-email-template.md` for a redline-response template. |
 | Signature keeps slipping by a few days repeatedly | Usually a sign the champion doesn't have the internal authority they implied earlier | Ask who else needs to be looped in — this is the point to identify a missing decision-maker, not to keep pushing the same contact. |
 | Prospect asks for one more concession right before signing | Classic last-minute anchor | Don't concede on price without routing through the approved pricing process (`handlers/pricing-objection-handler.md`); a scope or timeline concession may be more available than a price one. |
 

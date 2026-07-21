@@ -21,7 +21,7 @@ consistent order — not a different vibe-based answer every time.
 | `knowledge/scoring-guidelines.md` | The exact per-factor math (mirrors `scripts/score_deals.py`). |
 | `templates/priority-report.md` | Exact output layout for the ranked table. |
 | `templates/recommendation-template.md` | Pattern for the per-deal "why this rank" line. |
-| `templates/deal-import-template.csv` | Blank CSV a rep can fill in if they have no export. |
+| `templates/deal-import-template.csv` | CSV template (header row + 2 filled-in example rows) a rep can follow and replace if they have no export. |
 | `examples/input-example-1.md` | A realistic, unstructured pasted-in deal list. |
 | `examples/output-example-1.md` | The correct ranked output for that same input (real computed scores). |
 | `examples/sample-pipeline.json` | The same 4 deals in structured JSON, for reference/testing. |
@@ -41,8 +41,9 @@ apart. That consistency is the whole point of a "priority ranking" a rep can tru
 python3 scripts/score_deals.py templates/deal-import-template.csv --today 2026-07-16
 ```
 
-Compare against `examples/output-example-1.md` using `examples/sample-pipeline.json`
-(convert to CSV first) to sanity-check any changes to the scoring weights.
+Compare against `examples/output-example-1.md` using `examples/sample-pipeline.csv`
+(same 4 deals as `sample-pipeline.json`, in runnable CSV form) to sanity-check any
+changes to the scoring weights.
 
 ## Related skills (same module)
 

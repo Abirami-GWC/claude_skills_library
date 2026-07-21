@@ -110,6 +110,7 @@ padded content designed to look substantial.
 - `examples/example_1.md` — worked example (checklist)
 - `examples/example_2.md` — worked example (interactive calculator)
 - `templates/guide_template.md`, `templates/checklist_template.md`,
+  `templates/worksheet_template.md`, `templates/quiz_assessment_template.md`,
   `templates/landing_page_copy_template.md`
 - `scripts/build_calculator_html.py` — generates a working interactive
   calculator widget from a confirmed formula/input spec

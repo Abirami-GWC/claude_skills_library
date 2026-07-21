@@ -11,7 +11,17 @@ time — trust in the ranking depends on that consistency.
 in one rep's book and small in another's.
 
 **Probability to Close** — uses the stated probability directly if given. If missing,
-inferred from stage: Early ~20, Mid ~50, Late ~80.
+inferred from stage but *dampened halfway toward the neutral midpoint (50)* rather
+than used at full strength: Early ~35, Mid ~50, Late ~65 (vs. the undamped
+20/50/80 the stage itself would suggest). This is deliberate: Stage Weight (below)
+is already a separate scored factor derived from the same stage value — if the
+inferred Probability factor also used the raw stage-derived number at full
+strength, one underlying fact (stage) would end up driving ~35% of the total
+score (20% + 15%) instead of the documented 20%/15% split staying independent.
+Dampening keeps the inference directionally correct (higher stage → higher
+inferred probability) without letting it silently collapse into a second copy of
+the Stage Weight factor. This only applies when probability is inferred — a
+stated probability is always used as-is, undamped.
 
 **Urgency** — based on days until expected close date:
 - Within 7 days → 100

@@ -172,7 +172,23 @@ def load_deals(path):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Classify open sales deal health.")
+    parser = argparse.ArgumentParser(
+        description="Classify open sales deal health.",
+        epilog=(
+            "Expected CSV columns (header row required):\n"
+            "  deal_name                  (required)\n"
+            "  stage                      (required)\n"
+            "  last_contact_date          (optional, YYYY-MM-DD — blank if unknown)\n"
+            "  next_meeting_scheduled     (optional — yes/no, blank if not stated)\n"
+            "  decision_maker_identified  (optional — yes/no/unknown, blank if not stated)\n"
+            "  customer_response          (optional — responded/no_response, blank if not stated)\n"
+            "  days_in_stage              (optional, numeric)\n"
+            "  missed_followups           (optional, numeric)\n"
+            "  engagement_notes           (optional, free text — carried through, not scored)\n\n"
+            "Excluded from evaluation entirely: 'closed won' and 'closed lost' stages."
+        ),
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
     parser.add_argument("csv_path", help="Path to deals CSV")
     parser.add_argument("--today", help="Override today's date (YYYY-MM-DD), for reproducible testing")
     args = parser.parse_args()

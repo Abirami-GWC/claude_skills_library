@@ -117,3 +117,7 @@ Before drafting, confirm (ask if missing — never fabricate):
 - `templates/battlecard_objection_bank.csv` — structured objection/response starter set
 - `scripts/generate_battlecard_docx.py` — renders a populated battlecard into a one-page Word doc
 - `references/objection_response_bank.md` — patterns for objection-handling language
+  (canonical source for these generic scenario patterns — see the note at the
+  top of that file for its relationship to `why-us-messaging` and to
+  `objection_handling/competitor-objection-handler`, which is a different,
+  named-competitor lookup table rather than a duplicate of this content)

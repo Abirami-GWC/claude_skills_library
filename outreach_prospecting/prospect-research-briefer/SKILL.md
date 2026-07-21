@@ -50,9 +50,9 @@ plausible-sounding detail.
 See `instructions/workflow.md`. Summary:
 1. Confirm what's already known vs. what needs to be researched (company name,
    contact name/role, product/offer for relevance framing).
-2. Gather company-level research using `sub-skills/company-research/`.
-3. Gather contact-level research using `sub-skills/contact-research/`.
-4. Identify buying/trigger signals using `sub-skills/buying-signal-detection/`.
+2. Gather company-level research using `sub-skills/company-research/reference.md`.
+3. Gather contact-level research using `sub-skills/contact-research/reference.md`.
+4. Identify buying/trigger signals using `sub-skills/buying-signal-detection/reference.md`.
 5. Structure the output into `templates/briefing-doc-template.md`, clearly
    labeling verified vs. inferred information and citing sources for verified facts.
 
@@ -89,9 +89,9 @@ See `instructions/workflow.md`. Summary:
 - `scripts/generate_brief_docx.py` — optional: renders a brief into a Word
   document for sharing (uses the docx skill's conventions; only run this when the
   user wants a downloadable file, not for a normal chat response)
-- `sub-skills/company-research/`
-- `sub-skills/contact-research/`
-- `sub-skills/buying-signal-detection/`
+- `sub-skills/company-research/reference.md`
+- `sub-skills/contact-research/reference.md`
+- `sub-skills/buying-signal-detection/reference.md`
 
 ## Common Mistakes This Skill Prevents
 - Producing outreach copy based on invented "research" that sounds plausible but isn't real.

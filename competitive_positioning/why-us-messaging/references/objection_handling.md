@@ -3,6 +3,16 @@
 Adapt to the actual competitor/product facts and persona at hand — these are
 patterns, not scripts.
 
+**Canonical source note:** the four base patterns below are intentionally the
+same ones maintained in
+`battlecard-generator/references/objection_response_bank.md` — treat that
+file as canonical and this copy as the persona-adapted variant (each skill
+stays self-contained and independently installable, so the content is
+duplicated rather than cross-referenced at runtime). If the underlying
+objection logic changes, update both files. What this version adds on top:
+explicit guidance on how the same objection should be framed differently per
+buyer persona (see the pricing example below).
+
 ## "But [Competitor] told us they do that too."
 
 Don't contradict flatly. Ask what specifically was described, then compare

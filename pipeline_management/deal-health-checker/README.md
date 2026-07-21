@@ -56,11 +56,12 @@ into tested code means the same facts always produce the same status.
 ## Testing it yourself
 
 ```bash
-python3 scripts/deal_health.py examples/sample-deal.json  # convert to CSV first
+python3 scripts/deal_health.py examples/sample-deal.csv --today 2026-07-16
 ```
 
 Compare against `examples/output-example-1.md` to sanity-check any changes to the
-weights or thresholds.
+weights or thresholds. `examples/sample-deal.json` holds the same three deals in
+structured form for reference — the runnable input is `sample-deal.csv`.
 
 ## Related skills (same module)
 

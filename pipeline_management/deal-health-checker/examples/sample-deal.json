@@ -1,5 +1,5 @@
 {
-  "description": "Sample deals for testing deal-health-checker. Same three deals as input-example-1.md / output-example-1.md, in structured form.",
+  "description": "Sample deals for testing deal-health-checker. Same three deals as input-example-1.md / output-example-1.md, in structured form. For a runnable input, use sample-deal.csv (scripts/deal_health.py reads CSV, not JSON).",
   "today": "2026-07-16",
   "deals": [
     {

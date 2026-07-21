@@ -15,9 +15,11 @@ reply to the rep should look like, following `templates/priority-report.md` and
 | 3 | Gamma LLC – Renewal | $45,000 | Mid (proposal) | Aug 15 | Solid probability (60%) and recent response, but mid-stage and closes a month out — steady, not urgent. |
 | 4 | Beta Industries – New Deployment | $22,000 | Early (discovery) | Not set | Smallest deal, no close date, and 3 weeks of silence — lowest priority today, but the silence itself is a flag worth a follow-up nudge. |
 
-**Data quality notes:** Probability wasn't given for any of these deals, so it was
-inferred from stage (Late ≈ 80%, Mid stated at 60%, Early ≈ 20%). Beta Industries has
-no close date, so its urgency was treated as unknown rather than assumed safe.
+**Data quality notes:** Probability wasn't stated for Acme, Delta, or Beta, so it was
+inferred from stage and dampened toward neutral per `scoring-guidelines.md`
+(Late ≈ 65%, Early ≈ 35% — vs. the raw 80%/20% stage would suggest undamped).
+Gamma's 60% was stated directly and used as-is. Beta Industries has no close date,
+so its urgency was treated as unknown rather than assumed safe.
 
 ---
 

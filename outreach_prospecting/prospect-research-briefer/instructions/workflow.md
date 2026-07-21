@@ -10,15 +10,15 @@ Confirm:
   publicly available.
 
 ## Step 2 — Company research
-Use `sub-skills/company-research/SKILL.md`. Gather: what the company does, size,
+Use `sub-skills/company-research/reference.md`. Gather: what the company does, size,
 stage, recent news, and structural signals (hiring, tech stack if discoverable).
 
 ## Step 3 — Contact research
-Use `sub-skills/contact-research/SKILL.md`, if a specific contact was given.
+Use `sub-skills/contact-research/reference.md`, if a specific contact was given.
 Gather: role, tenure, relevant public content, likely priorities based on title.
 
 ## Step 4 — Signal detection
-Use `sub-skills/buying-signal-detection/SKILL.md` to identify which pieces of
+Use `sub-skills/buying-signal-detection/reference.md` to identify which pieces of
 research constitute genuine trigger events / buying signals versus interesting-but-
 irrelevant trivia. Rank by relevance to the offer.
 

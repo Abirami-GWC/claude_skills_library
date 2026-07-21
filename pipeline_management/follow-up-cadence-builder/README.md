@@ -41,12 +41,17 @@ Compare a new run's output against `examples/output-example-1.md` using
 `examples/sample-deal.json` as the input — same stage, same silence streak, same
 "today" — to sanity-check any changes to the cadence rules.
 
-## Related skills (same module)
+## Related skills
 
-- `pipeline-prioritizer` — ranks deals against each other, doesn't schedule outreach
-- `deal-health-checker` — diagnoses risk status; this skill hands a deal here once
+- `pipeline-prioritizer` (same module) — ranks deals against each other, doesn't schedule outreach
+- `deal-health-checker` (same module) — diagnoses risk status; this skill hands a deal here once
   the stopping rule is hit
-- `forecast-roller` — revenue rollup across the whole pipeline, manager-facing
+- `forecast-roller` (same module) — revenue rollup across the whole pipeline, manager-facing
+- `next-best-action` (in `follow_up_deal_closing`) — for a single immediate
+  "what do I do right now" recommendation rather than a full multi-touchpoint
+  schedule. Prefer this skill for planning a cadence; prefer `next-best-action`
+  for a one-off next step. See each skill's `SKILL.md` description for the exact
+  disambiguation.
 
 Keep triggering descriptions in each skill's `SKILL.md` distinct so requests don't
 collide between these four.

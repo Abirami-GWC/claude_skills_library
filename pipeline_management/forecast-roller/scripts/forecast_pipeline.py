@@ -167,7 +167,22 @@ def process(rows, period_end, today, concentration_threshold):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Compute a weighted revenue forecast for an open pipeline.")
+    parser = argparse.ArgumentParser(
+        description="Compute a weighted revenue forecast for an open pipeline.",
+        epilog=(
+            "Expected CSV columns (header row required):\n"
+            "  deal_name           (required)\n"
+            "  value               (required, numeric)\n"
+            "  stage               (required — one of: lead, qualified, discovery, demo,\n"
+            "                       proposal, negotiation, closed won, closed lost — case-insensitive)\n"
+            "  probability         (optional, 0-100)\n"
+            "  close_date          (optional, YYYY-MM-DD)\n"
+            "  last_activity_date  (optional, YYYY-MM-DD)\n\n"
+            "Excluded from the forecast entirely: 'lead' and 'closed lost' stages.\n"
+            "Tracked separately, not added to the forecast total: 'closed won'."
+        ),
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
     parser.add_argument("csv_path", help="Path to pipeline CSV")
     parser.add_argument("--period-end", help="Only count deals closing on/before this date (YYYY-MM-DD)")
     parser.add_argument("--today", help="Override today's date (YYYY-MM-DD), for reproducible testing")

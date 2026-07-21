@@ -1,5 +1,5 @@
 {
-  "description": "Sample Q3 pipeline for testing forecast-roller. Same three deals as input-example-1.md / output-example-1.md, in structured form.",
+  "description": "Sample Q3 pipeline for testing forecast-roller. Same three deals as input-example-1.md / output-example-1.md, in structured form. For a runnable input, use sample-pipeline.csv (scripts/forecast_pipeline.py reads CSV, not JSON).",
   "forecast_period": {
     "label": "Q3 2026",
     "period_end": "2026-09-30"

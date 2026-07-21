@@ -29,8 +29,13 @@ varying the angle) rather than restating the same headline five ways.
 
 Follow `knowledge/format_conversion_guide.md`'s structural guidance for each
 format — genuinely restructure for the platform, don't truncate a paragraph.
-Use `templates/social_post_template.md` / `templates/email_snippet_template.md`
-as drafting scaffolds.
+Use the matching drafting scaffold for the requested format:
+- Social post → `templates/social_post_template.md`
+- Thread / multi-post → `templates/thread_template.md`
+- Email snippet → `templates/email_snippet_template.md`
+- Short video / reel script → `templates/video_script_template.md`
+- Infographic outline → `templates/infographic_outline_template.md`
+- Quote graphic / pull-quote → `templates/quote_graphic_template.md`
 
 ## Step 5 — Validate
 

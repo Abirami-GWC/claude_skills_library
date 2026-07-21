@@ -29,15 +29,18 @@ Claude.ai skills live at the account level, not inside a single Project or conve
 
 ## Related skills
 
-This folder is one of four sibling objection-handling skills, each self-contained and
-independently installable:
+This folder is one of four sibling objection-handling skills:
 - `top-objections-playbook` — general pushback (the 10 weekly objections)
 - `pricing-objection-handler` — price/budget pushback
 - `competitor-objection-handler` — responses when a competitor is name-dropped
 
-This skill draws realistic objections from the equivalent content in those three skills (bundled
-copies live under `knowledge/` and referenced by name below) rather than inventing objections that
-contradict the real playbooks.
+Unlike its three siblings, this skill is **not fully self-contained**. It draws realistic
+objections directly from those three skills' handler files rather than inventing objections that
+contradict the real playbooks — there are no bundled copies of that content under `knowledge/`
+(that folder only holds `deliberate-practice-and-qualification.md`). Install this skill alongside
+the other three so those handler files are actually present. If it's ever installed on its own,
+don't fabricate specific objection content from memory — ask the user to paste the relevant
+playbook content, or reason only from `knowledge/deliberate-practice-and-qualification.md`.
 
 ## Structure
 

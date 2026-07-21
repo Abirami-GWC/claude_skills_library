@@ -1,0 +1,4 @@
+deal_name,stage,last_contact_date,next_meeting_scheduled,decision_maker_identified,customer_response,engagement_notes
+ABC Manufacturing,proposal,2026-06-28,no,unknown,no_response,Went quiet after proposal was sent
+Beta Corp,negotiation,2026-07-13,yes,yes,responded,Champion very engaged
+Gamma LLC,discovery,2026-07-06,yes,,,Early conversations going fine so far

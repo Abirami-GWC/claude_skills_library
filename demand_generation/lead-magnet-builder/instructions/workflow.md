@@ -23,8 +23,12 @@ selection table to propose the best-fit format for the stated value, and confirm
   concrete, checkable action, not a restated goal.
 - **Calculator**: do NOT start drafting until the exact formula/inputs/outputs
   are confirmed with the user (Step 3a below) — never invent business logic.
-- **Template/Worksheet**: structure fields around the specific
-  methodology/framework being taught, not a generic blank document.
+- **Template/Worksheet**: use `templates/worksheet_template.md`. Structure
+  fields around the specific methodology/framework being taught, not a
+  generic blank document.
+- **Quiz/Assessment**: use `templates/quiz_assessment_template.md`. Every
+  result must be genuinely differentiated per answer pattern, not a single
+  generic result regardless of input.
 
 ### Step 3a — For calculators specifically
 

@@ -27,6 +27,7 @@ reflect how strongly each factor predicts a deal stalling or being lost.
 |---|---|---|
 | Yes, named | 0 | |
 | No / stated as unknown | 1 | Not knowing who ultimately decides is a real, not just administrative, risk — treat "unknown" here as equivalent to "not identified," since either way the rep can't confirm the deal can actually close |
+| Not stated | 0.5 | Unknown status is treated more leniently than a confirmed "no," but still isn't scored as risk-free |
 
 ## Customer response
 

@@ -10,11 +10,11 @@
   tone accordingly (e.g., don't repeat the exact hook already used in an email touch).
 
 ## Step 2 — Connection request (if applicable)
-Hand off to `sub-skills/connection-request-writer/SKILL.md`. Key constraint:
+Hand off to `sub-skills/connection-request-writer/reference.md`. Key constraint:
 150-300 characters, one sentence, no pitch.
 
 ## Step 3 — DM sequence (if applicable)
-Hand off to `sub-skills/dm-sequence-writer/SKILL.md`. Typically 2-4 messages:
+Hand off to `sub-skills/dm-sequence-writer/reference.md`. Typically 2-4 messages:
 1. Post-connect acknowledgment + continue the thread from the connection note.
 2. Value/insight message (similar spirit to the "give touch" in email sequences,
    but shorter and more conversational).
